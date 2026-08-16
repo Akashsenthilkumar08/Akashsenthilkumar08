@@ -20,10 +20,19 @@
 
 <!-- ================= BLACK CODING SCREEN ================= -->
 
-<p align="center">
+<!-- <p align="center">
   <img
     src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=17&duration=1100&pause=500&color=38BDF8&background=000000&center=true&vCenter=true&multiline=true&repeat=true&width=950&height=420&lines=%24+whoami;%3E+Akash+S;%24+echo+%22Hi!+This+is+Akash!!+%F0%9F%91%8B%22;%3E+Hi!+This+is+Akash!!;%24+cat+about-me.txt;%3E+%F0%9F%8E%93+Computer+Science+Student;%3E+%F0%9F%92%BB+Full+Stack+Developer;%3E+%F0%9F%A4%96+AI+%26+Automation+Enthusiast;%3E+%F0%9F%A7%8A+Interactive+3D+Web+Explorer;%24+cat+current-project.txt;%3E+%F0%9F%9A%80+Eduway;%3E+AI-Powered+Education+Management+Platform;%24+cat+skills.txt;%3E+JavaScript+%7C+TypeScript+%7C+Python;%3E+React+%7C+Next.js+%7C+Node.js;%3E+Supabase+%7C+PostgreSQL;%3E+Three.js+%7C+WebGL;%24+status;%3E+Learning++++%3A+ACTIVE+%E2%9C%93;%3E+Building++++%3A+ACTIVE+%E2%9C%93;%3E+Experimenting+%3A+ACTIVE+%E2%9C%93;%3E+Ready+to+Build+%3A+TRUE+%F0%9F%9A%80;%24+_%7C"
     alt="Akash coding terminal"
+  />
+</p> -->
+<!-- ===================== MAC TERMINAL ===================== -->
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Akashsenthilkumar08/Akashsenthilkumar08/main/assets/akash-terminal.svg"
+    width="950"
+    alt="Akash S Mac style terminal"
   />
 </p>
 
