@@ -1,15 +1,17 @@
-name: Refresh animated profile cards
+name: Update profile art
 
 on:
   schedule:
-    - cron: "17 3 * * *"
-  workflow_dispatch:
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-cards
+  group: profile-art
   cancel-in-progress: false
 
 jobs:
@@ -20,19 +22,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Render SVG cards
+      - name: Render animated README cards with live GitHub activity
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: python scripts/render_readme_cards.py
-      - name: Commit updated cards
+      - name: Commit updated SVG cards
         run: |
           if [[ -n "$(git status --porcelain cards/)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add cards/
-            git commit -m "chore: refresh animated profile cards"
+            git commit -m "chore: refresh animated profile cards [skip ci]"
             git push
-          else
-            echo "Cards are already up to date."
           fi
