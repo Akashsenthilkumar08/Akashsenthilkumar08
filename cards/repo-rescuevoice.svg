@@ -9,8 +9,8 @@
 .pulse{animation:pulse 1.6s ease-in-out infinite}
 .sh{animation:sheen 5s ease-in-out infinite}
 @media(prefers-reduced-motion:reduce){.r,.f,.g,.pulse,.sh{animation:none!important;opacity:1!important;transform:none!important}.sh{display:none}}
-</style><rect width="293" height="174" rx="14" fill="#f3f3f1"/><rect x="22" y="28" width="8" height="8" rx="2" fill="#ef3b2d"/>
+</style><rect width="293" height="174" rx="14" fill="#f3f3f1"/><rect x="22" y="28" width="8" height="8" rx="2" fill="#2f55ff"/>
     <text class="r" x="42" y="38" font-family="Arial" font-size="17" font-weight="600" fill="#111111">RescueVoice</text>
-    <text x="22" y="76" font-family="Arial" font-size="13" fill="#3a3a3c">Voice-first AI assistant and conversationa</text>
-    <text x="22" y="97" font-family="Arial" font-size="13" fill="#3a3a3c">l agent</text>
+    <text x="22" y="76" font-family="Arial" font-size="13" fill="#3a3a3c">Real-time interruption-aware voice agent w</text>
+    <text x="22" y="97" font-family="Arial" font-size="13" fill="#3a3a3c">ith multi-model speech recognition</text>
     <text x="22" y="150" font-family="monospace" font-size="11" fill="#6e6e73">TypeScript</text></svg>
