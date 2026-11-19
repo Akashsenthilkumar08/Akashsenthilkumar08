@@ -128,8 +128,10 @@ def main():
     tile("build","BUILD",BLUE,"#ffffff","01","/ ENGINEER","Build useful products, tools and experiences.",.8)
     tile("brand","CREATE",RED,"#ffffff","02","/ EXPERIMENT","Shape ideas through design and creative code.",1.0)
     tile("learn","LEARN",YELLOW,INK,"03","/ GROW","Stay curious. Keep learning by shipping.",1.2)
-    repo_card("code-cortex","code-cortex","AI-powered coding companion and developer tools","TypeScript",BLUE)
-    repo_card("rescuevoice","RescueVoice","Voice-first AI assistant and conversational agent","TypeScript",RED)
-    repo_card("eduway","Eduway","Education platform and student learning tools","TypeScript",YELLOW)
+    repo_card("rescuevoice","RescueVoice","Real-time interruption-aware voice agent with multi-model speech recognition","TypeScript",BLUE)
+    repo_card("prompt-wars","SYNAPSE 2026","3D event platform with skill matchmaking, judging and live venue tools","React / Three.js",RED)
+    repo_card("aidetect","AI Detect","AI and ML-powered image authenticity and manipulation detection","AI / ML",YELLOW)
+    title_body=f'<text class="r" x="2" y="46" font-family="Georgia,serif" font-size="34" fill="{INK}">What I\'m <tspan font-style="italic">building</tspan></text>'
+    svg("title-coding-light.svg",W,64,title_body)
     print("Rendered profile SVG cards.")
 if __name__=="__main__": main()
