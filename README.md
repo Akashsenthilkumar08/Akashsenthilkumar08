@@ -1,6 +1,7 @@
 <!-- Animated profile layout inspired by the Three Worlds SVG-card design. -->
 <div align="center">
 <a href="https://github.com/Akashsenthilkumar08"><img src="./cards/hero.svg" width="100%" alt="Akash S — Computer Science student and developer" /></a><br>
+<img src="./cards/portrait.svg" width="52%" alt="Akash portrait rendered as animated ASCII art" /><br>
 <img src="./cards/heatmap.svg" width="100%" alt="GitHub contribution heatmap, refreshed daily" /><br>
 <img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months, monthly activity and streak" /><br>
 <a href="https://github.com/Akashsenthilkumar08?tab=repositories"><img src="./cards/build.svg" width="33.333%" alt="BUILD — engineering and useful products" /></a><a href="https://github.com/Akashsenthilkumar08?tab=repositories"><img src="./cards/brand.svg" width="33.333%" alt="CREATE — ideas and experiments" /></a><a href="https://github.com/Akashsenthilkumar08?tab=repositories"><img src="./cards/learn.svg" width="33.333%" alt="LEARN — curiosity and growth" /></a><br>
