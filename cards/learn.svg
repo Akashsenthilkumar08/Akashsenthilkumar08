@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="220" viewBox="0 0 340 220"><defs><linearGradient id="p"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#F6F2E9"/></linearGradient></defs><rect width="340" height="220" rx="22" fill="url(#p)"/><rect width="340" height="8" fill="#D9A441"/><text x="26" y="42" fill="#B88624" font-family="Arial" font-size="11" letter-spacing="3">03 / GROW</text><text x="24" y="105" fill="#182235" font-family="Georgia" font-size="42">Learn</text><text x="27" y="143" fill="#64748B" font-family="Arial" font-size="13">Stay curious. Keep shipping.</text><text x="27" y="193" fill="#B88624" font-family="Georgia" font-size="26">＋</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="293" height="210" viewBox="0 0 293 210"><style>
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}} @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes sheen{0%{transform:translateX(-240px) skewX(-20deg)}30%,100%{transform:translateX(520px) skewX(-20deg)}}
+.r{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+.f{opacity:0;animation:fade .9s ease-out both}
+.g{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:grow .8s cubic-bezier(.2,.7,.2,1) both}
+.pulse{animation:pulse 1.6s ease-in-out infinite}
+.sh{animation:sheen 5s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.r,.f,.g,.pulse,.sh{animation:none!important;opacity:1!important;transform:none!important}.sh{display:none}}
+</style><rect width="293.33" height="210" rx="14" fill="#ffc81a"/>
+    <text class="f" style="animation-delay:1.2s" x="22" y="34" font-family="monospace" font-size="11" letter-spacing="1.5" fill="#111111">LEARN</text>
+    <text class="r" style="animation-delay:1.4s" x="22" y="105" font-family="Georgia,serif" font-size="48" fill="#111111">03 <tspan font-style="italic" font-size="27">/ GROW</tspan></text>
+    <text class="r" style="animation-delay:1.65s" x="22" y="151" font-family="Arial" font-size="13" fill="#111111">Stay curious. Keep learning by shipping.</text>
+    <text x="260" y="36" font-family="monospace" font-size="16" fill="#111111">↗</text></svg>
