@@ -119,7 +119,7 @@ def main():
     except Exception as e:
         print("Contribution fetch failed; retaining placeholder stats:",e)
         cal={"totalContributions":0,"weeks":[]}
-    hero()
+    # Keep the hand-crafted uploaded-photo ASCII hero; do not regenerate it.
     if cal["weeks"]:
         heatmap(cal); activity(cal)
     else:
